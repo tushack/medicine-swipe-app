@@ -1,0 +1,1450 @@
+{
+  "dataset_name": "mediswipe_medicines_100",
+  "version": "1.0",
+  "generated_on": "2026-03-14",
+  "notes": [
+    "This dataset is for informational UI/demo use and not a substitute for medical advice.",
+    "Conventional medicine entries are phrased as 'commonly used for' rather than 'cures'.",
+    "Herbal/Ayurvedic entries are phrased as 'traditional use' or 'wellness support' where appropriate.",
+    "The image field is intentionally blank so you can attach your own verified images in the frontend."
+  ],
+  "source_collections": [
+    {
+      "label": "MedlinePlus Drugs, Herbs and Supplements",
+      "url": "https://medlineplus.gov/druginformation.html"
+    },
+    {
+      "label": "NCCIH Herbs at a Glance",
+      "url": "https://www.nccih.nih.gov/health/herbsataglance"
+    },
+    {
+      "label": "NIH Office of Dietary Supplements Fact Sheets",
+      "url": "https://ods.od.nih.gov/factsheets/list-all/"
+    },
+    {
+      "label": "Ayush Information Hub",
+      "url": "https://infohub.ayush.gov.in/"
+    },
+    {
+      "label": "Botanical Survey of India Medicinal Plant Database",
+      "url": "https://bsi.gov.in/page/en/medicinal-plant-database"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Paracetamol (Acetaminophen)",
+      "image": "",
+      "diseases": [
+        "Fever",
+        "Mild to moderate pain",
+        "Headache"
+      ],
+      "type": "Analgesic / Antipyretic",
+      "category": "Conventional",
+      "summary": "Commonly used to reduce fever and relieve mild to moderate pain.",
+      "caution": "Do not exceed the recommended dose because high doses can harm the liver.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 2,
+      "name": "Ibuprofen",
+      "image": "",
+      "diseases": [
+        "Pain",
+        "Inflammation",
+        "Fever"
+      ],
+      "type": "NSAID",
+      "category": "Conventional",
+      "summary": "Commonly used for pain, swelling, inflammation, and fever.",
+      "caution": "May irritate the stomach and is not suitable for everyone with ulcers, kidney disease, or some heart conditions.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 3,
+      "name": "Naproxen",
+      "image": "",
+      "diseases": [
+        "Pain",
+        "Inflammation",
+        "Menstrual cramps"
+      ],
+      "type": "NSAID",
+      "category": "Conventional",
+      "summary": "Commonly used for pain, inflammation, arthritis symptoms, and menstrual cramps.",
+      "caution": "May increase stomach bleeding risk and should be used carefully in kidney disease.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 4,
+      "name": "Diclofenac",
+      "image": "",
+      "diseases": [
+        "Joint pain",
+        "Muscle pain",
+        "Inflammation"
+      ],
+      "type": "NSAID",
+      "category": "Conventional",
+      "summary": "Commonly used for musculoskeletal pain, joint pain, and inflammation.",
+      "caution": "Can affect the stomach, heart, or kidneys in some people.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 5,
+      "name": "Cetirizine",
+      "image": "",
+      "diseases": [
+        "Allergy",
+        "Sneezing",
+        "Itching"
+      ],
+      "type": "Antihistamine",
+      "category": "Conventional",
+      "summary": "Commonly used for allergy symptoms such as sneezing, runny nose, and itching.",
+      "caution": "Can cause drowsiness in some people.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 6,
+      "name": "Loratadine",
+      "image": "",
+      "diseases": [
+        "Allergy",
+        "Runny nose",
+        "Watery eyes"
+      ],
+      "type": "Antihistamine",
+      "category": "Conventional",
+      "summary": "Commonly used to relieve allergy symptoms such as runny nose, sneezing, and watery eyes.",
+      "caution": "Use the recommended dose and check before combining with other cold-allergy products.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 7,
+      "name": "Fexofenadine",
+      "image": "",
+      "diseases": [
+        "Allergy",
+        "Hives",
+        "Itching"
+      ],
+      "type": "Antihistamine",
+      "category": "Conventional",
+      "summary": "Commonly used for seasonal allergies and hives with itching.",
+      "caution": "Avoid taking with certain fruit juices because they may affect absorption.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 8,
+      "name": "Levocetirizine",
+      "image": "",
+      "diseases": [
+        "Allergy",
+        "Sneezing",
+        "Hives"
+      ],
+      "type": "Antihistamine",
+      "category": "Conventional",
+      "summary": "Commonly used to relieve allergy symptoms and hives.",
+      "caution": "May cause sleepiness in some users.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 9,
+      "name": "Chlorpheniramine",
+      "image": "",
+      "diseases": [
+        "Cold allergy symptoms",
+        "Runny nose",
+        "Sneezing"
+      ],
+      "type": "Antihistamine",
+      "category": "Conventional",
+      "summary": "Commonly used for cold and allergy symptoms such as runny nose and sneezing.",
+      "caution": "Often causes drowsiness and dry mouth.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 10,
+      "name": "Diphenhydramine",
+      "image": "",
+      "diseases": [
+        "Allergy",
+        "Itching",
+        "Cold symptoms"
+      ],
+      "type": "Antihistamine",
+      "category": "Conventional",
+      "summary": "Commonly used for allergy symptoms, itching, and some cold symptoms.",
+      "caution": "Can strongly cause drowsiness; use carefully.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 11,
+      "name": "Omeprazole",
+      "image": "",
+      "diseases": [
+        "Acidity",
+        "Heartburn",
+        "GERD"
+      ],
+      "type": "Proton Pump Inhibitor",
+      "category": "Conventional",
+      "summary": "Commonly used for acid reflux, heartburn, and GERD.",
+      "caution": "Long-term use should be medically reviewed.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 12,
+      "name": "Pantoprazole",
+      "image": "",
+      "diseases": [
+        "Acidity",
+        "GERD",
+        "Heartburn"
+      ],
+      "type": "Proton Pump Inhibitor",
+      "category": "Conventional",
+      "summary": "Commonly used to reduce stomach acid in GERD and related conditions.",
+      "caution": "Long-term use should be checked by a clinician.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 13,
+      "name": "Rabeprazole",
+      "image": "",
+      "diseases": [
+        "Acid reflux",
+        "GERD",
+        "Heartburn"
+      ],
+      "type": "Proton Pump Inhibitor",
+      "category": "Conventional",
+      "summary": "Commonly used for acid reflux, GERD, and stomach-acid-related symptoms.",
+      "caution": "Long-term use should be reviewed by a healthcare professional.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 14,
+      "name": "Famotidine",
+      "image": "",
+      "diseases": [
+        "Heartburn",
+        "Acid indigestion",
+        "GERD"
+      ],
+      "type": "H2 Blocker",
+      "category": "Conventional",
+      "summary": "Commonly used for heartburn, acid indigestion, and some reflux symptoms.",
+      "caution": "Dose adjustment may be needed in kidney problems.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 15,
+      "name": "Calcium Carbonate Antacid",
+      "image": "",
+      "diseases": [
+        "Acid indigestion",
+        "Heartburn",
+        "Sour stomach"
+      ],
+      "type": "Antacid",
+      "category": "Conventional",
+      "summary": "Commonly used for quick relief of heartburn and acid indigestion.",
+      "caution": "Do not overuse because excessive intake may cause constipation or other issues.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 16,
+      "name": "Ondansetron",
+      "image": "",
+      "diseases": [
+        "Nausea",
+        "Vomiting"
+      ],
+      "type": "Antiemetic",
+      "category": "Conventional",
+      "summary": "Commonly used to prevent or treat nausea and vomiting.",
+      "caution": "May affect heart rhythm in some people; follow prescribed directions.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 17,
+      "name": "Domperidone",
+      "image": "",
+      "diseases": [
+        "Nausea",
+        "Vomiting",
+        "Bloating"
+      ],
+      "type": "Prokinetic / Antiemetic",
+      "category": "Conventional",
+      "summary": "Commonly used for nausea, vomiting, and some motility-related stomach symptoms.",
+      "caution": "Not appropriate for everyone and may affect heart rhythm in some patients.",
+      "source_group": "General medicine reference"
+    },
+    {
+      "id": 18,
+      "name": "Metoclopramide",
+      "image": "",
+      "diseases": [
+        "Nausea",
+        "Vomiting",
+        "Gastroparesis"
+      ],
+      "type": "Prokinetic / Antiemetic",
+      "category": "Conventional",
+      "summary": "Commonly used for nausea, vomiting, and delayed stomach emptying in selected cases.",
+      "caution": "Should not be used longer than advised because it can cause movement-related side effects.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 19,
+      "name": "Oral Rehydration Solution (ORS)",
+      "image": "",
+      "diseases": [
+        "Dehydration",
+        "Diarrhea",
+        "Vomiting-related fluid loss"
+      ],
+      "type": "Electrolyte Solution",
+      "category": "Conventional",
+      "summary": "Commonly used to replace fluids and electrolytes lost from diarrhea or vomiting.",
+      "caution": "Severe dehydration requires medical care.",
+      "source_group": "MedlinePlus Health Topic"
+    },
+    {
+      "id": 20,
+      "name": "Loperamide",
+      "image": "",
+      "diseases": [
+        "Diarrhea"
+      ],
+      "type": "Antidiarrheal",
+      "category": "Conventional",
+      "summary": "Commonly used for short-term relief of diarrhea.",
+      "caution": "Do not self-use for bloody diarrhea, high fever, or severe infection concerns without medical advice.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 21,
+      "name": "Bismuth Subsalicylate",
+      "image": "",
+      "diseases": [
+        "Upset stomach",
+        "Diarrhea",
+        "Nausea"
+      ],
+      "type": "Antidiarrheal / Stomach Remedy",
+      "category": "Conventional",
+      "summary": "Commonly used for upset stomach, nausea, and diarrhea.",
+      "caution": "Contains a salicylate; not suitable for everyone, especially some children or people with aspirin-related issues.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 22,
+      "name": "Dicyclomine",
+      "image": "",
+      "diseases": [
+        "Abdominal cramps",
+        "Irritable bowel symptoms"
+      ],
+      "type": "Antispasmodic",
+      "category": "Conventional",
+      "summary": "Commonly used to reduce intestinal muscle spasm and cramping.",
+      "caution": "May cause dry mouth, dizziness, or blurred vision.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 23,
+      "name": "Lactulose",
+      "image": "",
+      "diseases": [
+        "Constipation"
+      ],
+      "type": "Osmotic Laxative",
+      "category": "Conventional",
+      "summary": "Commonly used for constipation and sometimes for other clinician-directed uses.",
+      "caution": "May cause bloating or gas.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 24,
+      "name": "Polyethylene Glycol 3350",
+      "image": "",
+      "diseases": [
+        "Constipation"
+      ],
+      "type": "Osmotic Laxative",
+      "category": "Conventional",
+      "summary": "Commonly used to soften stool and relieve constipation.",
+      "caution": "Use as directed and seek advice if constipation is persistent.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 25,
+      "name": "Senna",
+      "image": "",
+      "diseases": [
+        "Constipation"
+      ],
+      "type": "Stimulant Laxative",
+      "category": "Conventional",
+      "summary": "Commonly used for short-term relief of constipation.",
+      "caution": "Long-term overuse can cause dependence on laxatives.",
+      "source_group": "MedlinePlus Drugs, Herbs and Supplements"
+    },
+    {
+      "id": 26,
+      "name": "Psyllium Husk (Isabgol)",
+      "image": "",
+      "diseases": [
+        "Constipation",
+        "Bowel regularity"
+      ],
+      "type": "Bulk-forming Laxative / Fiber",
+      "category": "Conventional / Herbal",
+      "summary": "Commonly used to improve bowel regularity and help with constipation.",
+      "caution": "Take with enough water to avoid choking or blockage.",
+      "source_group": "MedlinePlus / ODS"
+    },
+    {
+      "id": 27,
+      "name": "Amoxicillin",
+      "image": "",
+      "diseases": [
+        "Bacterial infections",
+        "Throat infection",
+        "Ear infection"
+      ],
+      "type": "Antibiotic",
+      "category": "Conventional",
+      "summary": "Commonly used for certain bacterial infections such as ear, throat, or respiratory infections.",
+      "caution": "Does not treat viral infections such as the common cold.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 28,
+      "name": "Amoxicillin + Clavulanate",
+      "image": "",
+      "diseases": [
+        "Bacterial infections",
+        "Sinus infection",
+        "Skin infection"
+      ],
+      "type": "Antibiotic Combination",
+      "category": "Conventional",
+      "summary": "Commonly used for certain bacterial infections, including some sinus, skin, and respiratory infections.",
+      "caution": "Use only when prescribed and complete the course as advised.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 29,
+      "name": "Azithromycin",
+      "image": "",
+      "diseases": [
+        "Bacterial infections",
+        "Respiratory infection",
+        "Throat infection"
+      ],
+      "type": "Macrolide Antibiotic",
+      "category": "Conventional",
+      "summary": "Commonly used for selected bacterial infections such as some throat, ear, lung, and skin infections.",
+      "caution": "Does not work for viral infections and may affect heart rhythm in some people.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 30,
+      "name": "Clarithromycin",
+      "image": "",
+      "diseases": [
+        "Bacterial infections",
+        "Respiratory infection",
+        "Skin infection"
+      ],
+      "type": "Macrolide Antibiotic",
+      "category": "Conventional",
+      "summary": "Commonly used for certain bacterial infections affecting the lungs, skin, or throat.",
+      "caution": "May interact with many medicines.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 31,
+      "name": "Doxycycline",
+      "image": "",
+      "diseases": [
+        "Bacterial infections",
+        "Acne",
+        "Selected tick-borne infections"
+      ],
+      "type": "Tetracycline Antibiotic",
+      "category": "Conventional",
+      "summary": "Commonly used for certain bacterial infections and also for acne in some cases.",
+      "caution": "Can increase sun sensitivity and is not suitable in all age groups or during some pregnancies.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 32,
+      "name": "Ciprofloxacin",
+      "image": "",
+      "diseases": [
+        "Selected bacterial infections",
+        "Urinary tract infection"
+      ],
+      "type": "Fluoroquinolone Antibiotic",
+      "category": "Conventional",
+      "summary": "Commonly used for selected bacterial infections, including some urinary tract infections.",
+      "caution": "Has important safety warnings and should only be used when appropriate.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 33,
+      "name": "Cephalexin",
+      "image": "",
+      "diseases": [
+        "Bacterial infections",
+        "Skin infection",
+        "Throat infection"
+      ],
+      "type": "Cephalosporin Antibiotic",
+      "category": "Conventional",
+      "summary": "Commonly used for certain bacterial infections such as skin or throat infections.",
+      "caution": "Does not treat viral illnesses.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 34,
+      "name": "Cefixime",
+      "image": "",
+      "diseases": [
+        "Bacterial infections",
+        "Urinary tract infection",
+        "Respiratory infection"
+      ],
+      "type": "Cephalosporin Antibiotic",
+      "category": "Conventional",
+      "summary": "Commonly used for selected bacterial infections including some urinary or respiratory infections.",
+      "caution": "Take only on medical advice and complete the prescribed course.",
+      "source_group": "General medicine reference"
+    },
+    {
+      "id": 35,
+      "name": "Metronidazole",
+      "image": "",
+      "diseases": [
+        "Anaerobic bacterial infection",
+        "Protozoal infection"
+      ],
+      "type": "Antibiotic / Antiprotozoal",
+      "category": "Conventional",
+      "summary": "Commonly used for certain anaerobic bacterial infections and some protozoal infections.",
+      "caution": "Alcohol should be avoided around treatment as advised by the clinician/pharmacist.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 36,
+      "name": "Nitrofurantoin",
+      "image": "",
+      "diseases": [
+        "Urinary tract infection"
+      ],
+      "type": "Antibiotic",
+      "category": "Conventional",
+      "summary": "Commonly used for certain urinary tract infections.",
+      "caution": "Not suitable for all kidney function levels.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 37,
+      "name": "Fluconazole",
+      "image": "",
+      "diseases": [
+        "Fungal infection",
+        "Yeast infection"
+      ],
+      "type": "Antifungal",
+      "category": "Conventional",
+      "summary": "Commonly used for selected fungal infections such as some yeast infections.",
+      "caution": "May interact with other medicines and affect the liver in some cases.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 38,
+      "name": "Clotrimazole",
+      "image": "",
+      "diseases": [
+        "Fungal skin infection",
+        "Athlete's foot",
+        "Yeast infection"
+      ],
+      "type": "Antifungal",
+      "category": "Conventional",
+      "summary": "Commonly used for topical treatment of fungal skin infections and some yeast infections.",
+      "caution": "Use the correct formulation for the affected area.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 39,
+      "name": "Miconazole",
+      "image": "",
+      "diseases": [
+        "Fungal infection",
+        "Athlete's foot",
+        "Ringworm"
+      ],
+      "type": "Antifungal",
+      "category": "Conventional",
+      "summary": "Commonly used for fungal infections such as athlete's foot, jock itch, or ringworm.",
+      "caution": "Use as directed for the full treatment period.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 40,
+      "name": "Acyclovir",
+      "image": "",
+      "diseases": [
+        "Herpes infection",
+        "Cold sores",
+        "Shingles"
+      ],
+      "type": "Antiviral",
+      "category": "Conventional",
+      "summary": "Commonly used for herpes virus infections including cold sores, genital herpes, or shingles in selected forms.",
+      "caution": "Works best when started early in the course of symptoms.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 41,
+      "name": "Oseltamivir",
+      "image": "",
+      "diseases": [
+        "Influenza (flu)"
+      ],
+      "type": "Antiviral",
+      "category": "Conventional",
+      "summary": "Commonly used for treatment or prevention of influenza in selected cases.",
+      "caution": "Most effective when started early after flu symptoms begin.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 42,
+      "name": "Salbutamol (Albuterol)",
+      "image": "",
+      "diseases": [
+        "Asthma",
+        "Wheezing",
+        "Breathlessness"
+      ],
+      "type": "Bronchodilator",
+      "category": "Conventional",
+      "summary": "Commonly used for quick relief of wheezing and breathing difficulty in asthma or similar conditions.",
+      "caution": "Frequent need for reliever inhaler may mean poor control and needs medical review.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 43,
+      "name": "Budesonide Inhalation",
+      "image": "",
+      "diseases": [
+        "Asthma control"
+      ],
+      "type": "Inhaled Corticosteroid",
+      "category": "Conventional",
+      "summary": "Commonly used for regular control of asthma inflammation.",
+      "caution": "It is a controller medicine, not a quick-relief rescue inhaler.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 44,
+      "name": "Fluticasone Nasal Spray",
+      "image": "",
+      "diseases": [
+        "Allergic rhinitis",
+        "Nasal congestion",
+        "Sneezing"
+      ],
+      "type": "Nasal Corticosteroid",
+      "category": "Conventional",
+      "summary": "Commonly used for allergy-related sneezing, stuffy nose, and runny nose.",
+      "caution": "Works best with regular use as directed.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 45,
+      "name": "Montelukast",
+      "image": "",
+      "diseases": [
+        "Asthma prevention",
+        "Allergic rhinitis"
+      ],
+      "type": "Leukotriene Receptor Antagonist",
+      "category": "Conventional",
+      "summary": "Commonly used for asthma prevention and some allergy symptoms.",
+      "caution": "It is not for immediate asthma attacks and has important mental health warnings.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 46,
+      "name": "Metformin",
+      "image": "",
+      "diseases": [
+        "Type 2 diabetes"
+      ],
+      "type": "Antidiabetic",
+      "category": "Conventional",
+      "summary": "Commonly used to help control blood sugar in type 2 diabetes.",
+      "caution": "May cause stomach upset and is not suitable for some kidney conditions.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 47,
+      "name": "Glimepiride",
+      "image": "",
+      "diseases": [
+        "Type 2 diabetes"
+      ],
+      "type": "Sulfonylurea Antidiabetic",
+      "category": "Conventional",
+      "summary": "Commonly used to lower blood sugar in type 2 diabetes.",
+      "caution": "Can cause low blood sugar in some people.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 48,
+      "name": "Insulin Glargine",
+      "image": "",
+      "diseases": [
+        "Diabetes mellitus"
+      ],
+      "type": "Long-acting Insulin",
+      "category": "Conventional",
+      "summary": "Commonly used as a long-acting insulin to help control blood sugar.",
+      "caution": "Insulin dosing must be individualized; low blood sugar can occur.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 49,
+      "name": "Amlodipine",
+      "image": "",
+      "diseases": [
+        "High blood pressure",
+        "Angina"
+      ],
+      "type": "Calcium Channel Blocker",
+      "category": "Conventional",
+      "summary": "Commonly used for high blood pressure and some types of chest pain.",
+      "caution": "May cause swelling of the feet or ankles in some users.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 50,
+      "name": "Losartan",
+      "image": "",
+      "diseases": [
+        "High blood pressure",
+        "Kidney protection in selected diabetes cases"
+      ],
+      "type": "ARB",
+      "category": "Conventional",
+      "summary": "Commonly used for high blood pressure and kidney protection in some people with diabetes.",
+      "caution": "Avoid in pregnancy unless specifically directed by a physician.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 51,
+      "name": "Telmisartan",
+      "image": "",
+      "diseases": [
+        "High blood pressure"
+      ],
+      "type": "ARB",
+      "category": "Conventional",
+      "summary": "Commonly used to treat high blood pressure.",
+      "caution": "Needs medical supervision, especially in pregnancy or kidney issues.",
+      "source_group": "General medicine reference"
+    },
+    {
+      "id": 52,
+      "name": "Enalapril",
+      "image": "",
+      "diseases": [
+        "High blood pressure",
+        "Heart failure"
+      ],
+      "type": "ACE Inhibitor",
+      "category": "Conventional",
+      "summary": "Commonly used for high blood pressure and some forms of heart failure.",
+      "caution": "Can cause cough and is not used in pregnancy.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 53,
+      "name": "Hydrochlorothiazide",
+      "image": "",
+      "diseases": [
+        "High blood pressure",
+        "Fluid retention"
+      ],
+      "type": "Diuretic",
+      "category": "Conventional",
+      "summary": "Commonly used for high blood pressure and fluid retention.",
+      "caution": "Can affect sodium, potassium, and other electrolytes.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 54,
+      "name": "Atenolol",
+      "image": "",
+      "diseases": [
+        "High blood pressure",
+        "Angina"
+      ],
+      "type": "Beta Blocker",
+      "category": "Conventional",
+      "summary": "Commonly used for high blood pressure and some heart-related conditions including angina.",
+      "caution": "Should not usually be stopped suddenly without advice.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 55,
+      "name": "Metoprolol",
+      "image": "",
+      "diseases": [
+        "High blood pressure",
+        "Angina",
+        "Heart rate control"
+      ],
+      "type": "Beta Blocker",
+      "category": "Conventional",
+      "summary": "Commonly used for high blood pressure and certain heart conditions.",
+      "caution": "May cause tiredness or dizziness; do not stop abruptly.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 56,
+      "name": "Atorvastatin",
+      "image": "",
+      "diseases": [
+        "High cholesterol",
+        "Cardiovascular risk reduction"
+      ],
+      "type": "Statin",
+      "category": "Conventional",
+      "summary": "Commonly used to lower cholesterol and reduce cardiovascular risk.",
+      "caution": "Report unexplained muscle pain and discuss liver monitoring if advised.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 57,
+      "name": "Rosuvastatin",
+      "image": "",
+      "diseases": [
+        "High cholesterol",
+        "Cardiovascular risk reduction"
+      ],
+      "type": "Statin",
+      "category": "Conventional",
+      "summary": "Commonly used to lower cholesterol and reduce risk of heart-related events in selected patients.",
+      "caution": "Can cause muscle-related side effects in some users.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 58,
+      "name": "Aspirin Low Dose",
+      "image": "",
+      "diseases": [
+        "Antiplatelet use in selected cardiovascular conditions"
+      ],
+      "type": "Antiplatelet",
+      "category": "Conventional",
+      "summary": "Commonly used in selected patients to reduce clot-related cardiovascular risk.",
+      "caution": "Not for everyone; bleeding risk must be considered.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 59,
+      "name": "Clopidogrel",
+      "image": "",
+      "diseases": [
+        "Antiplatelet use after selected heart or stroke conditions"
+      ],
+      "type": "Antiplatelet",
+      "category": "Conventional",
+      "summary": "Commonly used to help prevent harmful blood clots in selected heart or stroke-related conditions.",
+      "caution": "Can increase bleeding risk.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 60,
+      "name": "Levothyroxine",
+      "image": "",
+      "diseases": [
+        "Hypothyroidism"
+      ],
+      "type": "Thyroid Hormone",
+      "category": "Conventional",
+      "summary": "Commonly used to treat hypothyroidism by replacing thyroid hormone.",
+      "caution": "Best taken consistently as advised and not used for weight loss.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 61,
+      "name": "Prednisone",
+      "image": "",
+      "diseases": [
+        "Inflammation",
+        "Allergic reactions",
+        "Autoimmune flare"
+      ],
+      "type": "Corticosteroid",
+      "category": "Conventional",
+      "summary": "Commonly used to reduce inflammation and suppress immune reactions in selected conditions.",
+      "caution": "Should not be stopped suddenly after longer use unless medically guided.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 62,
+      "name": "Hydrocortisone Cream",
+      "image": "",
+      "diseases": [
+        "Skin itching",
+        "Rash",
+        "Mild eczema"
+      ],
+      "type": "Topical Corticosteroid",
+      "category": "Conventional",
+      "summary": "Commonly used for short-term relief of mild itchy or inflamed skin conditions.",
+      "caution": "Avoid prolonged unsupervised use, especially on the face or broken skin.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 63,
+      "name": "Triamcinolone Cream",
+      "image": "",
+      "diseases": [
+        "Dermatitis",
+        "Eczema",
+        "Inflamed skin rash"
+      ],
+      "type": "Topical Corticosteroid",
+      "category": "Conventional",
+      "summary": "Commonly used for inflammatory skin conditions such as eczema or dermatitis.",
+      "caution": "Use only as directed and avoid overuse.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 64,
+      "name": "Mupirocin",
+      "image": "",
+      "diseases": [
+        "Bacterial skin infection",
+        "Impetigo"
+      ],
+      "type": "Topical Antibiotic",
+      "category": "Conventional",
+      "summary": "Commonly used for certain bacterial skin infections such as impetigo.",
+      "caution": "Not for fungal or viral skin infections.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 65,
+      "name": "Permethrin",
+      "image": "",
+      "diseases": [
+        "Scabies",
+        "Head lice"
+      ],
+      "type": "Antiparasitic",
+      "category": "Conventional",
+      "summary": "Commonly used to treat scabies or head lice depending on the product.",
+      "caution": "Use the correct product and repeat schedule exactly as directed.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 66,
+      "name": "Calamine Lotion",
+      "image": "",
+      "diseases": [
+        "Itching",
+        "Minor skin irritation",
+        "Insect bites"
+      ],
+      "type": "Topical Skin Protectant",
+      "category": "Conventional",
+      "summary": "Commonly used for minor itching, insect bites, and mild skin irritation.",
+      "caution": "For external use only.",
+      "source_group": "General medicine reference"
+    },
+    {
+      "id": 67,
+      "name": "Ferrous Sulfate",
+      "image": "",
+      "diseases": [
+        "Iron deficiency anemia"
+      ],
+      "type": "Iron Supplement",
+      "category": "Conventional",
+      "summary": "Commonly used to treat or prevent iron deficiency.",
+      "caution": "Can cause stomach upset or constipation and should be kept out of reach of children.",
+      "source_group": "MedlinePlus / ODS"
+    },
+    {
+      "id": 68,
+      "name": "Calcium + Vitamin D",
+      "image": "",
+      "diseases": [
+        "Low calcium intake",
+        "Bone health support"
+      ],
+      "type": "Supplement",
+      "category": "Conventional",
+      "summary": "Commonly used to support bone health when calcium or vitamin D intake is inadequate.",
+      "caution": "Excess supplementation may not be appropriate for everyone.",
+      "source_group": "ODS Fact Sheets"
+    },
+    {
+      "id": 69,
+      "name": "Vitamin D3 (Cholecalciferol)",
+      "image": "",
+      "diseases": [
+        "Vitamin D deficiency",
+        "Bone health support"
+      ],
+      "type": "Vitamin Supplement",
+      "category": "Conventional",
+      "summary": "Commonly used to prevent or treat vitamin D deficiency and support bone health.",
+      "caution": "Do not take high doses without advice.",
+      "source_group": "ODS Fact Sheets"
+    },
+    {
+      "id": 70,
+      "name": "Vitamin B12 (Cyanocobalamin)",
+      "image": "",
+      "diseases": [
+        "Vitamin B12 deficiency"
+      ],
+      "type": "Vitamin Supplement",
+      "category": "Conventional",
+      "summary": "Commonly used to treat or prevent vitamin B12 deficiency.",
+      "caution": "Deficiency should ideally be medically evaluated to find the cause.",
+      "source_group": "ODS Fact Sheets"
+    },
+    {
+      "id": 71,
+      "name": "Folic Acid",
+      "image": "",
+      "diseases": [
+        "Folate deficiency",
+        "Pregnancy supplementation"
+      ],
+      "type": "Vitamin Supplement",
+      "category": "Conventional",
+      "summary": "Commonly used to prevent or treat folate deficiency and in pregnancy supplementation plans.",
+      "caution": "Persistent anemia needs proper evaluation rather than self-treatment alone.",
+      "source_group": "ODS Fact Sheets"
+    },
+    {
+      "id": 72,
+      "name": "Zinc Sulfate",
+      "image": "",
+      "diseases": [
+        "Zinc deficiency"
+      ],
+      "type": "Mineral Supplement",
+      "category": "Conventional",
+      "summary": "Commonly used to treat or prevent zinc deficiency.",
+      "caution": "Excess zinc can interfere with copper balance and cause stomach upset.",
+      "source_group": "ODS Fact Sheets"
+    },
+    {
+      "id": 73,
+      "name": "Magnesium Hydroxide",
+      "image": "",
+      "diseases": [
+        "Constipation",
+        "Acid indigestion"
+      ],
+      "type": "Laxative / Antacid",
+      "category": "Conventional",
+      "summary": "Commonly used as a laxative and in some products as an antacid.",
+      "caution": "Use carefully in kidney disease.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 74,
+      "name": "Tamsulosin",
+      "image": "",
+      "diseases": [
+        "Benign prostatic hyperplasia urinary symptoms"
+      ],
+      "type": "Alpha Blocker",
+      "category": "Conventional",
+      "summary": "Commonly used to improve urinary symptoms from enlarged prostate.",
+      "caution": "May cause dizziness, especially when standing up.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 75,
+      "name": "Sildenafil",
+      "image": "",
+      "diseases": [
+        "Erectile dysfunction",
+        "Selected pulmonary hypertension use"
+      ],
+      "type": "PDE5 Inhibitor",
+      "category": "Conventional",
+      "summary": "Commonly used for erectile dysfunction and, in other forms, certain pulmonary hypertension indications.",
+      "caution": "Must not be combined with nitrate medicines.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 76,
+      "name": "Finasteride",
+      "image": "",
+      "diseases": [
+        "Enlarged prostate",
+        "Male pattern hair loss"
+      ],
+      "type": "5-alpha-reductase Inhibitor",
+      "category": "Conventional",
+      "summary": "Commonly used for enlarged prostate and, in another strength, male pattern hair loss.",
+      "caution": "Pregnant women should avoid handling crushed tablets.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 77,
+      "name": "Allopurinol",
+      "image": "",
+      "diseases": [
+        "Gout",
+        "High uric acid"
+      ],
+      "type": "Xanthine Oxidase Inhibitor",
+      "category": "Conventional",
+      "summary": "Commonly used to lower uric acid and help prevent gout attacks over time.",
+      "caution": "Serious rash can occur in rare cases and needs urgent evaluation.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 78,
+      "name": "Colchicine",
+      "image": "",
+      "diseases": [
+        "Gout flare prevention and treatment in selected use"
+      ],
+      "type": "Antigout Medicine",
+      "category": "Conventional",
+      "summary": "Commonly used in selected gout treatment or prevention plans.",
+      "caution": "Dose matters greatly and many drug interactions exist.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 79,
+      "name": "Melatonin",
+      "image": "",
+      "diseases": [
+        "Sleep timing problems",
+        "Jet lag"
+      ],
+      "type": "Hormone Supplement",
+      "category": "Supplement",
+      "summary": "Commonly used for some sleep timing issues or jet lag.",
+      "caution": "Sleep problems can have many causes and persistent insomnia needs evaluation.",
+      "source_group": "NCCIH / ODS"
+    },
+    {
+      "id": 80,
+      "name": "Nicotine Replacement Gum / Patch",
+      "image": "",
+      "diseases": [
+        "Smoking cessation support"
+      ],
+      "type": "Smoking Cessation Aid",
+      "category": "Conventional",
+      "summary": "Commonly used to support quitting smoking by reducing withdrawal symptoms.",
+      "caution": "Use the correct strength and product instructions.",
+      "source_group": "MedlinePlus Drug Information"
+    },
+    {
+      "id": 81,
+      "name": "Ashwagandha",
+      "image": "",
+      "diseases": [
+        "Stress support",
+        "Sleep support"
+      ],
+      "type": "Ayurvedic / Herbal Supplement",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda and commonly marketed for stress and sleep support.",
+      "caution": "Herbal products can interact with medicines; avoid assuming they are risk-free.",
+      "source_group": "NCCIH / ODS / Ayush"
+    },
+    {
+      "id": 82,
+      "name": "Turmeric / Curcumin",
+      "image": "",
+      "diseases": [
+        "Inflammation support",
+        "Joint discomfort support"
+      ],
+      "type": "Ayurvedic / Herbal Supplement",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda and commonly used in supplements for inflammation-related support.",
+      "caution": "May interact with blood-thinning medicines in some cases.",
+      "source_group": "NCCIH / ODS / Ayush"
+    },
+    {
+      "id": 83,
+      "name": "Ginger",
+      "image": "",
+      "diseases": [
+        "Nausea support",
+        "Digestive discomfort"
+      ],
+      "type": "Herbal Supplement",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Commonly used for nausea support and digestive discomfort.",
+      "caution": "Use cautiously with blood-thinning medicines or before surgery.",
+      "source_group": "NCCIH / ODS"
+    },
+    {
+      "id": 84,
+      "name": "Peppermint Oil",
+      "image": "",
+      "diseases": [
+        "Indigestion",
+        "Irritable bowel symptom support"
+      ],
+      "type": "Herbal Supplement",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Commonly used for digestive symptom support, including some irritable bowel symptoms.",
+      "caution": "Can worsen reflux in some people.",
+      "source_group": "NCCIH"
+    },
+    {
+      "id": 85,
+      "name": "Aloe Vera Gel",
+      "image": "",
+      "diseases": [
+        "Minor skin irritation",
+        "Burn aftercare support"
+      ],
+      "type": "Herbal Topical",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Commonly used topically for minor skin irritation and soothing support.",
+      "caution": "Do not assume all oral aloe products are safe or suitable.",
+      "source_group": "NCCIH"
+    },
+    {
+      "id": 86,
+      "name": "Chamomile",
+      "image": "",
+      "diseases": [
+        "Relaxation support",
+        "Mild digestive discomfort"
+      ],
+      "type": "Herbal Supplement",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Commonly used as an herbal tea or supplement for relaxation and mild digestive comfort support.",
+      "caution": "People with some plant allergies should use caution.",
+      "source_group": "NCCIH"
+    },
+    {
+      "id": 87,
+      "name": "Tulsi (Holy Basil)",
+      "image": "",
+      "diseases": [
+        "Cough support",
+        "Stress support",
+        "Traditional immunity support"
+      ],
+      "type": "Ayurvedic Herb",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda for respiratory comfort and general wellness support.",
+      "caution": "Evidence and product quality vary; discuss herb-drug interactions when relevant.",
+      "source_group": "Ayush / BSI / Herbal references"
+    },
+    {
+      "id": 88,
+      "name": "Amla (Indian Gooseberry)",
+      "image": "",
+      "diseases": [
+        "Digestive support",
+        "Traditional immunity support"
+      ],
+      "type": "Ayurvedic Herb",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda for digestive wellness and general health support.",
+      "caution": "Product quality and concentration vary between preparations.",
+      "source_group": "Ayush / BSI / Herbal references"
+    },
+    {
+      "id": 89,
+      "name": "Brahmi (Bacopa monnieri)",
+      "image": "",
+      "diseases": [
+        "Memory support",
+        "Attention support"
+      ],
+      "type": "Ayurvedic Herb",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda and commonly marketed for memory and cognitive support.",
+      "caution": "May cause stomach upset in some users.",
+      "source_group": "NCCIH / Ayush / Herbal references"
+    },
+    {
+      "id": 90,
+      "name": "Fenugreek (Methi)",
+      "image": "",
+      "diseases": [
+        "Digestive support",
+        "Traditional glucose support"
+      ],
+      "type": "Ayurvedic / Herbal Supplement",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used for digestive support and sometimes for blood-sugar-related wellness support.",
+      "caution": "People on diabetes medicines should be careful because additive effects are possible.",
+      "source_group": "ODS / Ayush / Herbal references"
+    },
+    {
+      "id": 91,
+      "name": "Garlic",
+      "image": "",
+      "diseases": [
+        "Cardiovascular wellness support"
+      ],
+      "type": "Herbal Supplement",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Commonly used in food and supplements for general cardiovascular wellness support.",
+      "caution": "Can increase bleeding risk in some situations or with some medicines.",
+      "source_group": "NCCIH / ODS"
+    },
+    {
+      "id": 92,
+      "name": "Cinnamon",
+      "image": "",
+      "diseases": [
+        "Traditional digestive support",
+        "Traditional glucose support"
+      ],
+      "type": "Herbal Supplement",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Commonly used as a spice and supplement for traditional digestive and metabolic support.",
+      "caution": "High supplemental doses may not be safe for everyone.",
+      "source_group": "ODS / Herbal references"
+    },
+    {
+      "id": 93,
+      "name": "Licorice (Mulethi / Yashtimadhu)",
+      "image": "",
+      "diseases": [
+        "Sore throat support",
+        "Traditional digestive support"
+      ],
+      "type": "Herbal Supplement",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used for throat comfort and digestive support.",
+      "caution": "Large or prolonged intake can raise blood pressure in some forms.",
+      "source_group": "NCCIH / ODS / Ayush"
+    },
+    {
+      "id": 94,
+      "name": "Guggul",
+      "image": "",
+      "diseases": [
+        "Traditional joint support",
+        "Traditional lipid support"
+      ],
+      "type": "Ayurvedic Herb",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda for joint and metabolic support.",
+      "caution": "Product quality varies and medicine interactions are possible.",
+      "source_group": "Ayush / BSI / Herbal references"
+    },
+    {
+      "id": 95,
+      "name": "Triphala",
+      "image": "",
+      "diseases": [
+        "Digestive support",
+        "Bowel regularity support"
+      ],
+      "type": "Ayurvedic Formulation",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditional Ayurvedic formulation commonly used for digestive wellness and bowel regularity support.",
+      "caution": "Use standardized products and avoid assuming all formulations are identical.",
+      "source_group": "Ayush / Herbal references"
+    },
+    {
+      "id": 96,
+      "name": "Neem",
+      "image": "",
+      "diseases": [
+        "Traditional skin support",
+        "Oral hygiene support"
+      ],
+      "type": "Ayurvedic Herb",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda for skin and oral-care support.",
+      "caution": "Not all neem preparations are suitable for internal use.",
+      "source_group": "Ayush / BSI / Herbal references"
+    },
+    {
+      "id": 97,
+      "name": "Shatavari",
+      "image": "",
+      "diseases": [
+        "Traditional women's health support",
+        "Digestive support"
+      ],
+      "type": "Ayurvedic Herb",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda for women's wellness and digestive support.",
+      "caution": "Evidence quality varies and herb-drug interactions remain possible.",
+      "source_group": "Ayush / Herbal references"
+    },
+    {
+      "id": 98,
+      "name": "Arjuna",
+      "image": "",
+      "diseases": [
+        "Traditional heart wellness support"
+      ],
+      "type": "Ayurvedic Herb",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda for heart-related wellness support.",
+      "caution": "Should not replace prescribed cardiovascular treatment.",
+      "source_group": "Ayush / BSI / Herbal references"
+    },
+    {
+      "id": 99,
+      "name": "Guduchi (Giloy)",
+      "image": "",
+      "diseases": [
+        "Traditional fever support",
+        "Traditional immunity support"
+      ],
+      "type": "Ayurvedic Herb",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda for fever-related and general wellness support.",
+      "caution": "Herbal liver-safety concerns have been reported with some products, so product quality and supervision matter.",
+      "source_group": "Ayush / Herbal references"
+    },
+    {
+      "id": 100,
+      "name": "Haritaki",
+      "image": "",
+      "diseases": [
+        "Traditional digestive support",
+        "Bowel support"
+      ],
+      "type": "Ayurvedic Herb",
+      "category": "Ayurvedic / Herbal",
+      "summary": "Traditionally used in Ayurveda for digestive health and bowel support.",
+      "caution": "Use appropriate formulations and seek advice for persistent symptoms.",
+      "source_group": "Ayush / BSI / Herbal references"
+    }
+  ]
+}
