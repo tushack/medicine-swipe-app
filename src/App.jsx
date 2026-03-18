@@ -10,6 +10,20 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import medicinesData from "./data/mediswipe_medicines.json";
+const AdComponent = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://pl28940288.profitablecpmratenetwork.com/2d/8d/95/2d8d95f8de29de69c7cb5e1745ceef2a.js"; // 👈 यहाँ Adsterra code डालो
+    script.async = true;
+
+    const container = document.getElementById("ad-container");
+    if (container && container.childNodes.length === 0) {
+      container.appendChild(script);
+    }
+  }, []);
+
+  return <div id="ad-container" className="my-4"></div>;
+};
 
 const fallbackImage =
   "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=900&q=80";
@@ -58,6 +72,7 @@ export default function MedicineSwipePrototype() {
   const [showSaved, setShowSaved] = useState(false);
   const [selectedSaved, setSelectedSaved] = useState(null);
   const actionLockRef = useRef(false);
+  const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
     try {
@@ -93,6 +108,14 @@ export default function MedicineSwipePrototype() {
         if (alreadyPassed) return prev;
         return [...prev, card];
       });
+    }
+
+
+    // 🔥 NEW LOGIC (हर 3rd swipe पर ad)
+    if ((index + 1) % 3 === 0) {
+      setShowAd(true);
+    } else {
+      setShowAd(false);
     }
 
     setIndex((prev) => prev + 1);
@@ -254,6 +277,7 @@ export default function MedicineSwipePrototype() {
 
               <section className="flex flex-1 items-center justify-center">
                 <div className="relative w-full max-w-sm sm:max-w-md lg:max-w-lg">
+                  {showAd && <AdComponent />}
                   <div className="relative h-[640px] sm:h-[680px]">
                     {remaining.length > 0 ? (
                       <AnimatePresence>
