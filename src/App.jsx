@@ -74,6 +74,8 @@ export default function MedicineSwipePrototype() {
   const actionLockRef = useRef(false);
   const [showAd, setShowAd] = useState(false);
   const [iconClickCount, setIconClickCount] = useState(0);
+  const SMART_LINK =
+    "https://www.profitablecpmratenetwork.com/vbuab3wd?key=b2ab274ef92dbae01e37f07c6acc9978";
 
   useEffect(() => {
     try {
@@ -145,6 +147,14 @@ export default function MedicineSwipePrototype() {
     }
   };
 
+  const openSmartLink = () => {
+    try {
+      window.open(SMART_LINK, "_blank", "noopener,noreferrer");
+    } catch (error) {
+      // ignore popup errors
+    }
+  };
+
   return (
     <Routes>
       <Route
@@ -201,7 +211,10 @@ export default function MedicineSwipePrototype() {
                   </div>
 
                   <button
-                    onClick={() => setShowSaved((prev) => !prev)}
+                    onClick={() => {
+                      openSmartLink();
+                      setShowSaved((prev) => !prev);
+                    }}
                     className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-green-600 px-4 py-3 font-medium text-white shadow-sm transition hover:bg-green-700"
                   >
                     <Heart className="h-4 w-4" />
@@ -216,7 +229,10 @@ export default function MedicineSwipePrototype() {
                         </h3>
                         {liked.length > 0 && (
                           <button
-                            onClick={clearSaved}
+                            onClick={() => {
+                              openSmartLink();
+                              clearSaved();
+                            }}
                             className="rounded-xl bg-white px-3 py-1.5 text-xs font-semibold text-red-600 shadow-sm ring-1 ring-red-100 transition hover:bg-red-50"
                           >
                             Clear Saved
@@ -447,6 +463,7 @@ export default function MedicineSwipePrototype() {
                 >
                   Privacy Policy
                 </Link>
+          
               </div>
             </footer>
             {selectedSaved && (
