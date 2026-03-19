@@ -73,6 +73,7 @@ export default function MedicineSwipePrototype() {
   const [selectedSaved, setSelectedSaved] = useState(null);
   const actionLockRef = useRef(false);
   const [showAd, setShowAd] = useState(false);
+  const [iconClickCount, setIconClickCount] = useState(0);
 
   useEffect(() => {
     try {
@@ -110,19 +111,21 @@ export default function MedicineSwipePrototype() {
       });
     }
 
-
-    // 🔥 NEW LOGIC (हर 3rd swipe पर ad)
-    if ((index + 1) % 3 === 0) {
-      setShowAd(true);
-    } else {
-      setShowAd(false);
-    }
-
     setIndex((prev) => prev + 1);
 
     setTimeout(() => {
       actionLockRef.current = false;
     }, 350);
+  };
+
+  const handleIconChoice = (choice, item) => {
+    if (!item || actionLockRef.current) return;
+
+    const nextClickCount = iconClickCount + 1;
+    setIconClickCount(nextClickCount);
+    setShowAd(nextClickCount % 3 === 0);
+
+    handleChoice(choice, item);
   };
 
   const resetDeck = () => {
@@ -387,7 +390,7 @@ export default function MedicineSwipePrototype() {
                                         <button
                                           onClick={(e) => {
                                             e.stopPropagation();
-                                            handleChoice("left", item);
+                                            handleIconChoice("left", item);
                                           }} className="flex h-14 w-14 items-center justify-center rounded-full bg-orange-100 text-orange-700 shadow-md transition hover:scale-110 hover:bg-orange-200 active:scale-95"
                                         >
                                           <X className="h-6 w-6" />
@@ -396,7 +399,7 @@ export default function MedicineSwipePrototype() {
                                         <button
                                           onClick={(e) => {
                                             e.stopPropagation();
-                                            handleChoice("right", item);
+                                            handleIconChoice("right", item);
                                           }} className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100 text-green-700 shadow-lg transition hover:scale-110 hover:bg-green-200 active:scale-95"
                                         >
                                           <Heart className="h-7 w-7" />
