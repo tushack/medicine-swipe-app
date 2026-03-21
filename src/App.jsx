@@ -859,7 +859,7 @@ export default function MedicineSwipePrototype() {
                     </div>
                     <div className="flex-1">
                       <h1 className="text-2xl font-extrabold tracking-tight">
-                        MediSwipe
+                        DawaiSwipe
                       </h1>
                       <p className="text-sm text-slate-600">{uiText.subtitle}</p>
                     </div>
