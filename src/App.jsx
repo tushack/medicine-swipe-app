@@ -1251,6 +1251,7 @@ export default function MedicineSwipePrototype() {
           </div>
         }
       />
+      <Route path="/:slug" element={<MedicineDetailPage />} />
       <Route path="/medicine/:slug" element={<MedicineDetailPage />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
     </Routes>
