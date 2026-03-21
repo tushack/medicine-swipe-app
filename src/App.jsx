@@ -463,7 +463,7 @@
 //                 >
 //                   Privacy Policy
 //                 </Link>
-          
+
 //               </div>
 //             </footer>
 //             {selectedSaved && (
@@ -558,6 +558,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import MedicineDetailPage from "./pages/MedicineDetailPage";
 import {
   Heart,
   X,
@@ -694,51 +695,51 @@ export default function MedicineSwipePrototype() {
   const uiText =
     language === "hi"
       ? {
-          subtitle: "दवा जानकारी",
-          useful: "उपयोगी",
-          skipped: "स्किप",
-          swipeLogic: "स्वाइप लॉजिक",
-          swipeRight: "राइट स्वाइप = उपयोगी दवा",
-          swipeLeft: "लेफ्ट स्वाइप = स्किप",
-          viewSaved: "सेव दवाइयाँ देखें",
-          hideSaved: "सेव दवाइयाँ छुपाएँ",
-          savedTitle: "सेव उपयोगी दवाइयाँ",
-          clearSaved: "सेव हटाएँ",
-          noSaved: "अभी तक कोई दवा सेव नहीं हुई।",
-          worksFor: "किसमें उपयोगी",
-          note: "नोट:",
-          allReviewed: "सभी कार्ड देख लिए गए",
-          startAgain: "फिर से शुरू करें",
-          privacyPolicy: "प्राइवेसी पॉलिसी",
-          close: "बंद करें",
-          dragMe: "स्वाइप करें",
-          saved: "सेव",
-          english: "English",
-          hindi: "हिन्दी",
-        }
+        subtitle: "दवा जानकारी",
+        useful: "उपयोगी",
+        skipped: "स्किप",
+        swipeLogic: "स्वाइप लॉजिक",
+        swipeRight: "राइट स्वाइप = उपयोगी दवा",
+        swipeLeft: "लेफ्ट स्वाइप = स्किप",
+        viewSaved: "सेव दवाइयाँ देखें",
+        hideSaved: "सेव दवाइयाँ छुपाएँ",
+        savedTitle: "सेव उपयोगी दवाइयाँ",
+        clearSaved: "सेव हटाएँ",
+        noSaved: "अभी तक कोई दवा सेव नहीं हुई।",
+        worksFor: "किसमें उपयोगी",
+        note: "नोट:",
+        allReviewed: "सभी कार्ड देख लिए गए",
+        startAgain: "फिर से शुरू करें",
+        privacyPolicy: "प्राइवेसी पॉलिसी",
+        close: "बंद करें",
+        dragMe: "स्वाइप करें",
+        saved: "सेव",
+        english: "English",
+        hindi: "हिन्दी",
+      }
       : {
-          subtitle: "Medicine discovery",
-          useful: "Useful",
-          skipped: "Skipped",
-          swipeLogic: "Swipe logic",
-          swipeRight: "Right swipe = Relevant Medicine",
-          swipeLeft: "Left swipe = skipped.",
-          viewSaved: "View Saved Medicines",
-          hideSaved: "Hide Saved Medicines",
-          savedTitle: "Saved Useful Medicines",
-          clearSaved: "Clear Saved",
-          noSaved: "No medicine has been saved yet.",
-          worksFor: "Works for",
-          note: "Note:",
-          allReviewed: "All cards reviewed",
-          startAgain: "Start Again",
-          privacyPolicy: "Privacy Policy",
-          close: "Close",
-          dragMe: "Drag Me",
-          saved: "Saved",
-          english: "English",
-          hindi: "हिन्दी",
-        };
+        subtitle: "Medicine discovery",
+        useful: "Useful",
+        skipped: "Skipped",
+        swipeLogic: "Swipe logic",
+        swipeRight: "Right swipe = Relevant Medicine",
+        swipeLeft: "Left swipe = skipped.",
+        viewSaved: "View Saved Medicines",
+        hideSaved: "Hide Saved Medicines",
+        savedTitle: "Saved Useful Medicines",
+        clearSaved: "Clear Saved",
+        noSaved: "No medicine has been saved yet.",
+        worksFor: "Works for",
+        note: "Note:",
+        allReviewed: "All cards reviewed",
+        startAgain: "Start Again",
+        privacyPolicy: "Privacy Policy",
+        close: "Close",
+        dragMe: "Drag Me",
+        saved: "Saved",
+        english: "English",
+        hindi: "हिन्दी",
+      };
 
   const getDisplayName = (item) =>
     language === "hi"
@@ -753,15 +754,15 @@ export default function MedicineSwipePrototype() {
   const getDisplaySummary = (item) =>
     language === "hi"
       ? item?.summary_hi ||
-        item?.quick_note_hi ||
-        item?.summary ||
-        item?.quick_note_en ||
-        ""
+      item?.quick_note_hi ||
+      item?.summary ||
+      item?.quick_note_en ||
+      ""
       : item?.summary ||
-        item?.quick_note_en ||
-        item?.summary_hi ||
-        item?.quick_note_hi ||
-        "";
+      item?.quick_note_en ||
+      item?.summary_hi ||
+      item?.quick_note_hi ||
+      "";
 
   const getDisplayCaution = (item) =>
     language === "hi"
@@ -867,21 +868,19 @@ export default function MedicineSwipePrototype() {
                   <div className="mb-4 flex gap-2">
                     <button
                       onClick={() => setLanguage("en")}
-                      className={`flex-1 rounded-2xl px-4 py-2 text-sm font-semibold transition ${
-                        language === "en"
-                          ? "bg-green-600 text-white shadow"
-                          : "bg-white text-slate-700 ring-1 ring-slate-200"
-                      }`}
+                      className={`flex-1 rounded-2xl px-4 py-2 text-sm font-semibold transition ${language === "en"
+                        ? "bg-green-600 text-white shadow"
+                        : "bg-white text-slate-700 ring-1 ring-slate-200"
+                        }`}
                     >
                       {uiText.english}
                     </button>
                     <button
                       onClick={() => setLanguage("hi")}
-                      className={`flex-1 rounded-2xl px-4 py-2 text-sm font-semibold transition ${
-                        language === "hi"
-                          ? "bg-orange-500 text-white shadow"
-                          : "bg-white text-slate-700 ring-1 ring-slate-200"
-                      }`}
+                      className={`flex-1 rounded-2xl px-4 py-2 text-sm font-semibold transition ${language === "hi"
+                        ? "bg-orange-500 text-white shadow"
+                        : "bg-white text-slate-700 ring-1 ring-slate-200"
+                        }`}
                     >
                       {uiText.hindi}
                     </button>
@@ -1083,9 +1082,12 @@ export default function MedicineSwipePrototype() {
                                       <p className="text-sm font-semibold text-slate-500">
                                         {uiText.worksFor}
                                       </p>
-                                      <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">
-                                        {getDecisionLabel(0, language)}
-                                      </span>
+                                      <Link
+                                        to={item.route_path || `/medicine/${item.slug || item.name?.toLowerCase().replace(/\s+/g, "-")}`}
+                                        className="rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-700 transition hover:bg-green-200"
+                                      >
+                                        {language === "hi" ? "पूरा पढ़ें" : "Read More"}
+                                      </Link>
                                     </div>
 
                                     <div className="mb-4 flex flex-wrap gap-2">
@@ -1249,7 +1251,7 @@ export default function MedicineSwipePrototype() {
           </div>
         }
       />
-
+      <Route path="/medicine/:slug" element={<MedicineDetailPage />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
     </Routes>
   );
